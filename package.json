@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "cross-env dinara=pizza vadym=wiski PORT=5000 NONE_ENV=development node server.js"
+    "dev": "cross-env dinara=pizza vadym=wiski PORT=5000 NODE_ENV=development node server.js"
   },
   "repository": {
     "type": "git",
